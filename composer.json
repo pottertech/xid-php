@@ -1,8 +1,8 @@
 {
-    "name": "fpay/xid-php",
+    "name": "pottertech/xid-php",
     "version": "1.0.1",
     "description": "Globally Unique ID Generator",
-    "homepage": "https://github.com/fpay/xid-php",
+    "homepage": "https://github.com/pottertech/xid-php",
     "type": "library",
     "require": {
         "php": ">=7.0.0"
@@ -23,12 +23,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "jerray",
-            "email": "jerrayfu@gmail.com"
+            "name": "Skip Potter",
+            "email": "skip.potter.va@gmail.com"
         }
     ],
     "support": {
-      "issues": "https://github.com/fpay/xid-php/issues",
-      "source": "https://github.com/fpay/xid-php"
+      "issues": "https://github.com/pottertech/xid-php/issues",
+      "source": "https://github.com/pottertech/xid-php"
     }
 }
