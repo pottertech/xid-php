@@ -23,7 +23,7 @@ class Generator
     private $pid;
 
     /**
-     * @var boolean
+     * @var Generator|null
      */
     private static $_instance;
 
@@ -52,7 +52,6 @@ class Generator
         $now = time();
         $id = [];
 
-        $id[0] = ($now >> 24) & 0xff;
         $id[0] = ($now >> 24) & 0xff;
         $id[1] = ($now >> 16) & 0xff;
         $id[2] = ($now >> 8) & 0xff;
